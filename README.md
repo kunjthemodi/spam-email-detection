@@ -1,1 +1,3 @@
 # spam-email-detection
+
+This project evaluates the performance of various classification algorithms (Logistic Regression, Naïve Bayes, SVM, Decision Tree, and Random Forest) on a email spam classification task. To address class imbalance, the models were tested with different resampling techniques (Random Oversampling, Random Undersampling, and SMOTE). After cross-validation, Random Forest with Random Oversampling achieved the best balance between accuracy and recall. The findings suggest that Random Forest with Random Oversampling is the most effective model, particularly for tasks requiring minimized false negatives. 
